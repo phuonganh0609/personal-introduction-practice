@@ -1,1 +1,35 @@
-/* CSS cho trang gioi thieu ca nhan. */
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #203047;
+  background: #f1f5f9;
+  line-height: 1.7;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+main {
+  width: min(100% - 40px, 800px);
+  margin: 64px auto;
+}
+
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
+
+.introduction {
+  background: #ffffff;
+  padding: clamp(24px, 5vw, 48px);
+  border-radius: 20px;
+  border: 1px solid #dbe4ee;
+  box-shadow: 0 12px 36px #2030470d;
+}
+
+.eyebrow { color: #475569; font-weight: 600; }
+
+h2 { margin-top: 0; font-size: 1.75rem; }
+
+a { color: #1d4ed8; font-weight: 600; text-underline-offset: 4px; }
+
+a:hover { color: #1e3a8a; }
+
+a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 5px; }
