@@ -17,7 +17,7 @@ main {
 h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
 
 .introduction {
-  background: #ffffff;
+  background: #203047;
   padding: clamp(24px, 5vw, 48px);
   border-radius: 20px;
   border: 1px solid #dbe4ee;
